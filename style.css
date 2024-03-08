@@ -18,12 +18,13 @@ body {
 
 .conteudo-principal {
     display: flex;
+
     .titulo-principal {
         text-align: left;
         width: 100%;
         font-size: 32px;
     }
-    
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -67,9 +68,13 @@ body {
     display: block;
 }
 
-.ativo{
+.ativo {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+}
+
+.abas-textos {
+    background-color: var(--texto-fundo);
 }
 
 @media screen and (min-width: 768px) {
